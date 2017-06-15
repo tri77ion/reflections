@@ -1,3 +1,19 @@
 What happens when you initialize a repository? Why do you need to do it?
 
 A: It creates a new repository with no committ files. To start version tracking.
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+
+A: It's a location that git is aware of but where files aren't committed yet. It allows you to stage things that are ready for git.
+
+How can you use the stagina area to make sure you have one commit per logical changes?
+
+A: You can move files there one my one until they are ready to be committed as a logical unit.
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+A: When you're experimenting with different feature sets or refactoring you can isolate your changes from master.
+
+How do the diagrams help you visualize the branch structure?
+
+It makes it easier to see where the branches start and end.
